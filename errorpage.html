@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>網站錯誤 - 服務中斷</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #9146FF, #5e2a6d); /* 更淺的漸層紫色 */
+      color: #ffffff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* 文字陰影增強可讀性 */
+      flex-direction: column;
+      text-align: center;
+      position: relative;
+    }
+
+    h1 {
+      color: #ffffff; /* 白色文字 */
+      font-size: 3em;
+      margin: 20px 0;
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.6;
+      margin: 15px 0;
+    }
+
+    ul {
+      font-size: 1.1em;
+      text-align: left;
+      margin: 10px 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    /* 左上角圖片 */
+    .top-left-image {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 150px;
+      height: auto;
+    }
+
+    /* 右下角圖片置中 */
+    .bottom-center-image {
+      position: absolute;
+      bottom: 20px;
+      left: 50%; /* 把圖片從左邊 50% 開始 */
+      transform: translateX(-50%); /* 使圖片完全置中 */
+      width: 250px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+<h1>抱歉，網站目前無法使用。</h1>
+<p>由於訪問量過大或伺服器故障，網站已經無法正常運行。我們正在努力解決問題並恢復服務，請稍後再試。</p>
+<p>目前我們無法確定恢復時間，感謝您的理解與耐心。</p>
+<p>您可以：</p>
+<ul>
+  <li>稍後再試訪問</li>
+  <li>聯繫我們的客服團隊了解更多狀況</li>
+  <li>查看我們的社交媒體或公告頁面獲取最新資訊</li>
+</ul>
+<p>對於給您帶來的不便，我們深感抱歉，並感謝您的支持。</p>
+
+<!-- 左上角顯示的圖片 -->
+<img src="img/pngwing.com4.png" alt="Twitch Logo" class="top-left-image">
+
+<!-- 右下角置中的圖片 -->
+<img src="img/pngwing.com3.png" alt="Twitch Logo" class="bottom-center-image">
+</body>
+</html>
